@@ -12,7 +12,7 @@ $recentResult = $conn->query($recentQuery);
 
 <div class="container mt-5">
     <h2 class="mb-4">Admin Dashboard Overview</h2>
-
+<a href="members.php" class="btn btn-success mb-3">Go to Membership Data Record (MDR)</a>
     <div class="row mb-4">
         <div class="col-md-4">
             <div class="card text-white bg-primary mb-3">
