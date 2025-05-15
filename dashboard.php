@@ -12,7 +12,11 @@ $recentResult = $conn->query($recentQuery);
 
 <div class="container mt-5">
     <h2 class="mb-4">Admin Dashboard Overview</h2>
-<a href="members.php" class="btn btn-success mb-3">Go to Membership Data Record (MDR)</a>
+
+    <!-- MDR Link Button -->
+    <a href="members.php" class="btn btn-success mb-4">Go to Membership Data Record (MDR)</a>
+
+    <!-- Stats Cards -->
     <div class="row mb-4">
         <div class="col-md-4">
             <div class="card text-white bg-primary mb-3">
@@ -22,9 +26,9 @@ $recentResult = $conn->query($recentQuery);
                 </div>
             </div>
         </div>
-        <!-- Add more metrics here in future -->
     </div>
 
+    <!-- Recent Members Table -->
     <div class="card">
         <div class="card-header">
             Recent Members
